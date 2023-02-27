@@ -64,7 +64,37 @@ img.img-polaroid {
 }
 /*  Header
 ==================================== */
- 
+ /* apotyxhmenh prospatheia 1
+ */ 
+ ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+  }
+  
+  li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  li a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+  
+  li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+  }
+  /* telos apotyxhmenh prospatheia 1
+ */ 
 header .navbar {
     margin-bottom: 0;
 }
@@ -836,8 +866,10 @@ ul.portfolio-categ li a{
 	color: #14A085;
 }
 ul.portfolio-categ li.active{
-border: 1px solid #D7D8D6;
-background-color: #EAEAEA;
+
+border: 1px solid #D7D8D6;
+
+background-color: #EAEAEA;
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
 	text-decoration:none;
